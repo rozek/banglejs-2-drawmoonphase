@@ -20,20 +20,6 @@ with the following parameters:
 * `left` - left factor (see below)
 * `right` - right factor (see below)
 
-It may be invoked as shown like a method of the global graphics context `g`
-
-```
-g.drawMoonPhase(cx,cy, r, left, right);
-```
-
-or like a standalone function
-
-```
-drawMoonPhase(cx,cy, r, left, right);
-```
-
-In the latter case, it uses `g` as graphics context.
-
 The moon phase is drawn and filled with current foreground color.
 
 ### Semantics of "left" and "right" ###
