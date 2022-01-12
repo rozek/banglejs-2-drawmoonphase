@@ -2,7 +2,7 @@
 
 draws the interior of two half ovals to symbolize a moon phase
 
-This module adds a method `drawMoonPhase` for drawing an image symbolizing a moon phase to the global graphics context `g`.
+This module adds a method `drawMoonPhase` for drawing an image symbolizing a moon phase to the global graphics context `g`. It is based on an idea of forum user [HilmarSt](http://forum.espruino.com/profiles/182487/) (see this [discussion](http://forum.espruino.com/conversations/371330/)).
 
 ![](Demo.png)
 
