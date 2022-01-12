@@ -1,6 +1,6 @@
-(function () {
-  if (g.drawMoonPhase == null) {
-    g.drawMoonPhase = function drawMoonPhase (
+;(function () {
+  if (Graphics.prototype.drawMoonPhase == null) {
+    Graphics.prototype.drawMoonPhase = function drawMoonPhase (
       CenterX,CenterY, Radius, leftFactor,rightFactor
     ) {
       let x = Radius, y = 0, Error = Radius;
