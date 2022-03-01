@@ -8,7 +8,7 @@ This module adds a method `drawMoonPhase` for drawing an image symbolizing a moo
 
 The new method has the signature
 
-```
+```javascript
 g.drawMoonPhase(cx,cy, r, left, right);
 ```
 
@@ -35,7 +35,7 @@ The moon phase is drawn and filled with current foreground color.
 
 The following example illustrates how to use `drawMoonPhase` and produces the graphics shown above:
 
-```
+```javascript
   g.setBgColor('#000000');
   g.clear(false);
 
